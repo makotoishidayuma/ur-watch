@@ -1,0 +1,48 @@
+name: UR vacancy watch
+
+on:
+  workflow_dispatch:
+  schedule:
+    # JST 10:02 / 13:02 / 16:02 / 19:02
+    - cron: '2 1,4,7,10 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run watcher
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          NOTIFY_MODE: ${{ secrets.NOTIFY_MODE }}
+          REPORT_PATH: ur_report.txt
+        run: python ur_watch.py --state-file .state/ur_state.json
+
+      - name: Commit updated state/report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .state/ur_state.json ur_report.txt || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Update UR watcher state"
+          git push
