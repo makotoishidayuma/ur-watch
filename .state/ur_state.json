@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-04-20T19:40:56+09:00",
+  "pages": {
+    "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6330.html": {
+      "name": "物件詳細ページ",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6330.html",
+      "checked_at": "2026-04-20T19:40:53+09:00",
+      "status_code": 200,
+      "text_hash": "9c473072b85b543d9e288f4902b7222c431dcb7808c2b4bf96e6d42d52196766",
+      "available_rooms_guess": null,
+      "changed": false,
+      "availability_changed": false,
+      "summary": "空室数を断定できる表記は未検出",
+      "raw_excerpt": "æ¿æ©ãã¥ã¼ã¿ã¯ã¼ï¼æ±äº¬é½ï¼ã®è³è²¸ç©ä»¶ï½URè³è²¸ä½å®\nãæ°ã«å\n¥ã\n-\nãæ°ã«å\n¥ãç»é²ãå®äºãã¾ããã\nãã¼ã¸ä¸é¨ãããã¤ã§ãç¢ºèªã§ãã¾ãã\nä»å¾ãã®ã¡ãã»ã¼ã¸ãè¡¨ç¤ºããªãã"
+    },
+    "https://www.ur-net.go.jp/chintai/sp/kanto/tokyo/20_6330_room.html": {
+      "name": "部屋情報ページ",
+      "url": "https://www.ur-net.go.jp/chintai/sp/kanto/tokyo/20_6330_room.html",
+      "checked_at": "2026-04-20T19:40:54+09:00",
+      "status_code": 200,
+      "text_hash": "940ef13e33d1bf4a137e6b7146ece819b5945cced30627ce7fa6d97736987c6a",
+      "available_rooms_guess": null,
+      "changed": false,
+      "availability_changed": false,
+      "summary": "空室数を断定できる表記は未検出",
+      "raw_excerpt": "æ¿æ©ãã¥ã¼ã¿ã¯ã¼ï¼æ±äº¬é½ï¼\nãæ°ã«å\n¥ã\n-\né²è¦§å±¥æ­´\nã¡ãã¥ã¼\néãã\nç©ä»¶ãæ¢ã"
+    },
+    "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/1573.html": {
+      "name": "板橋駅一覧ページ",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/1573.html",
+      "checked_at": "2026-04-20T19:40:55+09:00",
+      "status_code": 200,
+      "text_hash": "bc0c22dbf000d99f9904734254dc04302c4065c6cf0a24e6c5efa30748d1fcfc",
+      "available_rooms_guess": null,
+      "changed": false,
+      "availability_changed": false,
+      "summary": "空室数を断定できる表記は未検出",
+      "raw_excerpt": "æ¿æ©é§\nã®è³è²¸ä½å®\nã»ãã³ã·ã§ã³ï½URè³è²¸ä½å®\nãæ°ã«å\n¥ã\n-\nãæ°ã«å\n¥ãç»é²ãå®äºãã¾ããã"
+    },
+    "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/2305.html": {
+      "name": "新板橋駅一覧ページ",
+      "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/2305.html",
+      "checked_at": "2026-04-20T19:40:56+09:00",
+      "status_code": 200,
+      "text_hash": "7f2e5a93c4c03db871fb07266077567625735fc018ed59df4df21f03662abb9b",
+      "available_rooms_guess": null,
+      "changed": false,
+      "availability_changed": false,
+      "summary": "空室数を断定できる表記は未検出",
+      "raw_excerpt": "æ°æ¿æ©é§\nã®è³è²¸ä½å®\nã»ãã³ã·ã§ã³ï½URè³è²¸ä½å®\nãæ°ã«å\n¥ã\n-\nãæ°ã«å\n¥ãç»é²ãå®äºãã¾ããã"
+    }
+  }
+}
