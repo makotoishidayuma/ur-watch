@@ -45,5 +45,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .state/ur_state.json ur_report.txt || true
           git diff --cached --quiet && exit 0
-          git commit -m "Update UR watcher state"
+          git commit -m "Update UR watcher state" || echo "No changes"
           git push
