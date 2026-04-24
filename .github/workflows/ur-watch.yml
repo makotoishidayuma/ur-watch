@@ -39,6 +39,7 @@ jobs:
         run: python ur_watch.py --state-file .state/ur_state.json
 
       - name: Commit updated state/report
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
