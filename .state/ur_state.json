@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-02T21:10:25+09:00",
+  "updated_at": "2026-05-03T17:18:06+09:00",
   "pages": {
     "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6330.html": {
       "name": "物件詳細ページ",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6330.html",
-      "checked_at": "2026-05-02T21:10:22+09:00",
+      "checked_at": "2026-05-03T17:18:03+09:00",
       "status_code": 200,
       "text_hash": "54a6b897e9a07c1c9f90d715760372f38c9d191e03f7e74c41ff0323b61afbc0",
       "available_rooms_guess": null,
@@ -16,7 +16,7 @@
     "https://www.ur-net.go.jp/chintai/sp/kanto/tokyo/20_6330_room.html": {
       "name": "部屋情報ページ",
       "url": "https://www.ur-net.go.jp/chintai/sp/kanto/tokyo/20_6330_room.html",
-      "checked_at": "2026-05-02T21:10:23+09:00",
+      "checked_at": "2026-05-03T17:18:04+09:00",
       "status_code": 200,
       "text_hash": "940ef13e33d1bf4a137e6b7146ece819b5945cced30627ce7fa6d97736987c6a",
       "available_rooms_guess": null,
@@ -28,7 +28,7 @@
     "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/1573.html": {
       "name": "板橋駅一覧ページ",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/1573.html",
-      "checked_at": "2026-05-02T21:10:24+09:00",
+      "checked_at": "2026-05-03T17:18:05+09:00",
       "status_code": 200,
       "text_hash": "bc0c22dbf000d99f9904734254dc04302c4065c6cf0a24e6c5efa30748d1fcfc",
       "available_rooms_guess": null,
@@ -40,7 +40,7 @@
     "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/2305.html": {
       "name": "新板橋駅一覧ページ",
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/eki/2305.html",
-      "checked_at": "2026-05-02T21:10:25+09:00",
+      "checked_at": "2026-05-03T17:18:06+09:00",
       "status_code": 200,
       "text_hash": "7f2e5a93c4c03db871fb07266077567625735fc018ed59df4df21f03662abb9b",
       "available_rooms_guess": null,
